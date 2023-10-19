@@ -20,7 +20,7 @@ test(TEST_NAME, (t) => {
         t.end();
     });
 
-    t.test(`${TEST_NAME}: for action 'reduxBasePluginDeselectAction' the reducer, when the card is selected`, (t) => {
+    t.test(`${TEST_NAME}: for action 'reduxBasePluginExampleAction' the reducer, when the card is selected`, (t) => {
         const action = reduxBasePluginExampleAction('this is an example');
         const state = _state({ example: null });
         const new_state = reduxBasePluginStateReducer(state, action);

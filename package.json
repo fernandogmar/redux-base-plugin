@@ -1,6 +1,6 @@
 {
     "name": "redux-base-plugin",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Base code to start your redux plugin",
     "main": "./src/index.js",
     "type": "module",
